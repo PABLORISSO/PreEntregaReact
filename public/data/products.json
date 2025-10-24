@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "CEDEAR Apple Inc (AAPL.BA)",
+    "price": 98000,
+    "category": "renta-variable",
+    "image": "/images/aapl.jpg",
+    "description": "Acción de Apple representada en el mercado argentino vía CEDEAR."
+  },
+  {
+    "id": 2,
+    "name": "CEDEAR Microsoft Corp (MSFT.BA)",
+    "price": 105000,
+    "category": "renta-variable",
+    "image": "/images/msft.jpg",
+    "description": "CEDEAR de Microsoft, empresa líder en software y tecnología."
+  },
+  {
+    "id": 3,
+    "name": "Bonar 2030 (AL30)",
+    "price": 83000,
+    "category": "renta-fija",
+    "image": "/images/al30.jpg",
+    "description": "Bono soberano argentino con vencimiento en 2030."
+  },
+  {
+    "id": 4,
+    "name": "Bono USD 2035 (GD35)",
+    "price": 92000,
+    "category": "renta-fija",
+    "image": "/images/gd35.jpg",
+    "description": "Bono argentino en dólares con vencimiento en 2035."
+  }
+]
