@@ -1,0 +1,59 @@
+.product-item {
+  background-color: #1e1e1e; /* Gris más claro que el fondo */
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  max-width: 100%; /* dejar que el grid controle el ancho */
+  color: #f5f5f5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  /* height se aplica sólo cuando el item está dentro del grid (ver más abajo) */
+}
+
+/* Aplicar altura completa solo cuando la tarjeta está dentro del grid de productos */
+.product-grid .product-item {
+  height: 100%;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto; /* mantiene proporción */
+  display: block;
+  aspect-ratio: 16 / 9; /* usar formato más panorámico para reducir altura */
+  object-fit: cover; /* recortar de forma consistente */
+  border-radius: 0.25rem;
+}
+
+.product-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.product-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block; /*hacemos que el link tome todo el bloque del article y sea clickeable*/
+}
+
+.product-item p {
+  margin: 0.375rem 0; /* 6px */
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffcc66;
+}
+
+.product-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: auto; /* empuja acciones al final del card */
+}
+.product-actions .btn .btn-add {
+  margin: 1rem;
+}

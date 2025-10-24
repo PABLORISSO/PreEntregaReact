@@ -1,0 +1,11 @@
+.app-header {
+  padding: 1.25rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header h2 {
+  font-size: 1.75rem; /* aumentar tamaño de letra del header */
+  margin: 0;
+}

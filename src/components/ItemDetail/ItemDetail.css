@@ -1,0 +1,11 @@
+.detail-container {
+  max-width: 900px;
+  margin: 2rem auto; /* centra y separa del header */
+  padding: 1rem;
+}
+
+/* En el detalle no queremos que el card se estire a 100% de altura */
+.detail-container .product-item {
+  height: auto !important;
+  max-width: 100%;
+}

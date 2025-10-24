@@ -1,0 +1,22 @@
+.home-hero {
+  background-image: url('/images/fondo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.home-hero__overlay {
+  background: rgba(0, 0, 0, 0.45); /* overlay oscuro para legibilidad */
+  padding: 2rem 1rem 4rem; /* más espacio abajo para la grid */
+}
+
+.home-hero__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.home-hero__content h1 {
+  margin: 0 0 1rem 0;
+  color: #fff;
+}
